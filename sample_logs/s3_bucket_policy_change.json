@@ -1,0 +1,15 @@
+{
+  "eventVersion": "1.05",
+  "userIdentity": {"type": "IAMUser", "arn": "arn:aws:iam::123456789012:user/storage-admin", "userName": "storage-admin"},
+  "eventTime": "2024-11-05T15:10:00Z",
+  "eventSource": "s3.amazonaws.com",
+  "eventName": "PutBucketPolicy",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.45",
+  "userAgent": "console.amazonaws.com",
+  "requestParameters": {"bucketName": "cloudtrail-hunter-demo", "policyStatus": "public-read"},
+  "responseElements": null,
+  "eventID": "12345678-example-s3",
+  "eventType": "AwsApiCall",
+  "recipientAccountId": "123456789012"
+}

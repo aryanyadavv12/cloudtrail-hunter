@@ -1,0 +1,15 @@
+{
+  "eventVersion": "1.05",
+  "userIdentity": {"type": "IAMUser", "arn": "arn:aws:iam::123456789012:user/suspicious-user", "userName": "suspicious-user"},
+  "eventTime": "2024-11-05T15:15:00Z",
+  "eventSource": "cloudtrail.amazonaws.com",
+  "eventName": "StopLogging",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.99",
+  "userAgent": "aws-cli/2.15.0",
+  "requestParameters": {"name": "management-trail"},
+  "responseElements": null,
+  "eventID": "12345678-example-ct",
+  "eventType": "AwsApiCall",
+  "recipientAccountId": "123456789012"
+}
